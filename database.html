@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Database</title>
+</head>
+<body style="background-color: lightgreen;">
+	<p>
+<h1>LESSON 1: INTRODUCTION TO DATABASE</h1>
+<h3>1. What is Data?</h3>
+Data are raw facts that have not yet been processed.</p>
+<p>Examples:</p>
+a)Thabiso<br>
+b)25<br>
+c)Male<br>
+d)E250<br>
+These facts alone do not give much meaning.<br>
+<h3>2. What is Information?</h3>
+Information is processed data that has meaning and helps people make decisions.<br>
+<p>Example:</p>
+a)Name<br>
+b)Product<br>
+c)Quantity<br>
+d)Tom<br>
+e)Apples<br>
+f)14<br>
+This table is information because it tells us something useful.<br>
+
+<h3>3. What is a Database?</h3>
+A database is a collection of related data stored electronically so that it can be accessed, managed, and updated easily.
+<p>Examples</p>
+a)Student database<br>
+b)Hospital database<br>
+c)Bank database<br>
+d)School database
+<h3>4. What is a DBMS?</h3>
+DBMS stands for Database Management System.<br>
+It is software used to create, store, update, delete, and manage databases.<br>
+<p>Examples of DBMS</p>
+a)MySQL<br>
+b)Oracle<br>
+c)Microsoft SQL Server<br>
+d)Microsoft Access
+<h4>Functions of a DBMS include:</h4>
+a)Creating databases<br>
+b)Storing data<br>
+c)Updating data<br>
+d)Controlling user access<br>
+e)Processing queries
+
+<h3>5. Importance of a DBMS</h3>
+A DBMS:<br>
+a)Makes data management easier.<br>
+b)Stores data securely.<br>
+c)Allows fast searching.<br>
+d)Reduces duplicate data.<br>
+e)Helps people make better decisions.<br>
+f0Allows many users to access data safely.<br>
+
+<h3>6. Importance of Good Database Design</h3>
+A well-designed database:<br>
+a)Reduces duplicate data.<br>
+b)Prevents errors.<br>
+c)Makes data easy to retrieve.<br>
+d)Improves system performance.
+<p>A poorly designed database:</p>
+a)Wastes storage space.<br>
+b)Produces incorrect information.<br>
+c)Makes maintenance difficult.<br>
+
+<h3>7. Historical Development of Databases</h3>
+<h4>Problems with file systems:</h4>
+a)Duplicate data<br>
+b)Difficult to update<br>
+c)Slow searching<br>
+d)Poor security<br>
+e)Databases were introduced to solve these problems.<br>
+
+<h3>8. File Terminology</h3>
+<p>a)Data</p>
+Raw facts.
+<p>b)Field</p>
+A single piece of information.<br>
+Example: Name = Tom
+<p>c)Record</p>
+A group of related fields.<br>
+Example: Name: Tom Age: 23 Gender: Male
+<P>d)File</P>
+A collection of records.
+
+<h3>9. Types of Database Systems</h3>
+<p>a)Single-user Database</p>
+Only one person uses it at a time.
+<p>b)Multi-user Database</p>
+Many users access it simultaneously.
+<p>c)Centralized Database</p>
+Stored in one location.
+<p>d)Distributed Database</p>
+Stored in different locations but connected together.
+
+<h3>10. Functions of a DBMS</h3>
+<p>A DBMS performs:</p>
+a)Data storage<br>
+b)Data security<br>
+c)Backup and recovery<br>
+d)Multi-user access<br>
+e)Data integrity<br>
+f)Database communication<br>
+g)Data dictionary management
+
+<h3>11. Database Models</h3>
+A database model describes how data is organized.
+<h4>Main database models:</h4>
+a)Hierarchical Model<br>
+b)Network Model<br>
+c)Relational Model<br>
+d)Entity-Relationship (ER) Model<br>
+e)Object-Oriented Model<br>
+
+<h4>12. Hierarchical Database Model</h4>
+<p>Structure:</p>
+Looks like an upside-down tree.<br>
+One parent can have many children.<br>
+Each child has only one parent.<br>
+<p>Advantages</p>
+a)Fast<br>
+b)Simple<br>
+c)Good security<br>
+<p>Disadvantages</p>
+a)Difficult to modify<br>
+b)Complex programming<br>
+c)Limited flexibility
+
+<h4>13. Network Database Model</h4>
+One record can have many parents.<br>
+More flexible than the hierarchical model.
+<p>Advantages</p>
+a)Supports many relationships.<br>
+b)Better flexibility.<br>
+<p>Disadvantages</p>
+a)Complex to design.<br>
+b)Harder to maintain.
+
+<h4>14. Relational Database Model</h4>
+The most commonly used database model.<br>
+Data is stored in tables.<br>
+<p>Each table contains:</p>
+a)Rows (records)<br>
+b)Columns (fields)<br>
+<p>Advantages</p>
+a)Easy to understand.<br>
+b)Easy to manage.<br>
+c)Uses SQL.<br>
+d)Supports data independence.<br>
+<p>Disadvantages</p>
+a)Requires more hardware.<br>
+b)Poor design can reduce performance.<br>
+
+<h4>15. Entity Relationship (ER) Model</h4>
+Used to design databases before implementation.<br>
+<p>Main components:</p>
+a)Entity<br>
+b)Attribute<br>
+c)Relationship<br>
+<p>Advantages:</p>
+a)Easy to understand.<br>
+b)Visual representation.<br>
+c)Helps database designers communicate ideas clearly.
+
+<h4>16. Object-Oriented Database Model</h4>
+Stores data as objects.
+<p>Advantages:</p>
+a)Supports complex data.<br>
+b)Reuses code through inheritance.<br>
+<p>Disadvantages:</p>
+a)Difficult to learn.<br>
+b)Requires more computer resources.<br>
+
+<h3>Summary (Exam Revision)</h3>
+<p>You should be able to:</p>
+a)Define data and information.<br>
+b)Explain what a database is.<br>
+c)Define DBMS.<br>
+d)List advantages of a DBMS.<br>
+e)Explain database design.<br>
+f)Differentiate field, record, and file.<br>
+g)Describe database models.<br>
+h)Compare Hierarchical, Network, Relational, ER, and Object-Oriented database models.
+</p>
+<h1>End Of Lesson1</h1>
+##############################################################################################################################################
+
+<h1>Lesson 2</h1>
+<h2>DATA MODELING</h2>
+<h3>1. What is Data Modeling?</h3>
+Definition: Data modeling is the process of creating a visual representation of data and showing how different pieces of data relate to each other before building a database.<br>
+
+<h4>Importance</h4>
+a)Helps understand business requirements.<br>
+b)Reduces errors during database design.<br>
+c)Makes the database easier to develop and maintain.
+d)Improves communication between users and database designers.
+<h3>2. What is a Data Model?</h3>
+A data model is a simplified representation of real-world data structures.
+<p>It describes:</p>
+a)What data will be stored.<br>
+b)How data is organized.<br>
+c)How different data items are related.<br>
+
+<h3>3. Levels (Degrees) of Data Abstraction</h3>
+<h4>A. Conceptual Model</h4>
+This is the highest level.
+<p>Characteristics</p>
+a)Gives the overall view of the database.<br>
+b)Identifies main entities and relationships.<br>
+C)Independent of hardware and software.<br>
+d)Represented using an Entity Relationship Diagram (ERD).<br>
+<p>Example A school database containing:</p>
+a)Student<br>
+b)Lecturer<br>
+c)Course<br>
+d)Department
+
+<h4>B. Internal Model</h4>
+Shows how the database is organized inside the DBMS.
+<p>Characteristics</p>
+a)Software dependent.<br>
+b)Converts the conceptual model into tables.<br>
+c)Shows keys and relationships.
+<h4>C. External Model</h4>
+Shows what each user sees.
+<p>Characteristics</p>
+a)Different users see different parts of the database.<br>
+b)Improves security.<br>
+c)Makes application development easier.<br>
+<p>Example</p>
+a)Student sees only marks.<br>
+b)Lecturer sees marks and student details.<br>
+c)Administrator sees everything.
+
+<h4>D. Physical Model</h4>
+Lowest level of abstraction.
+<p>Shows:</p>
+a)Storage devices<br>
+b)Files<br>
+c)Indexes<br>
+d)Access methods
+It depends on both hardware and software.
+<h4>4. Entity Relationship (ER) Model</h4>
+The ER Model is used to design databases.<br>
+<p>It consists of three main components:</p>
+a)Entities<br>
+b)Attributes<br>
+c)Relationships
+
+<h4>5. Entity</h4>
+An entity is a real-world object or thing about which data is stored.
+<p>Examples:</p>
+a)Student<br>
+b)Employee<br>
+c)Book<br>
+d)Customer<br>
+e)Department
+<h4>In an ER Diagram:</h4>
+Entity = Rectangle
+<h3>6. Attributes</h3>
+Attributes describe an entity.
+<p>Example</p>
+a)Student<br>
+b)StudentID<br>
+c)Name<br>
+d)Age<br>
+e)Gender<br>
+<p>Types of Attributes</p>
+a)Simple Attribute<br>
+Cannot be divided.<br>
+Example:<br>
+Age<br>
+Gender<br><br>
+b)Composite Attribute<br>
+Can be divided into smaller parts.<br>
+Example:<br>
+Address<br>
+Street<br>
+City<br>
+Postal Code<br><br>
+c)Single-Valued Attribute<br>
+Has only one value.<br>
+Example:<br>
+Student Number<br><br>
+d)Multi-Valued Attribute<br>
+Has more than one value.<br>
+Example:<br>
+Phone Numbers<br>
+Qualifications<br><br>
+e)Derived Attribute<br>
+Calculated from another attribute.<br>
+Example:<br>
+Age calculated from Date of Birth.<br>
+
+<h3>7. Domain</h3>
+A domain is the set of all possible values an attribute can have.<br>
+Example<br>
+Gender:<br>
+Male<br>
+Female<br>
+Age:<br>
+0–120<br>
+<h4>8. Primary Key</h4>
+A primary key uniquely identifies every record in a table.<br><br>
+Characteristics<br>
+a)Unique<br>
+b)Cannot be NULL<br>
+c)One primary key per table<br>
+Example<br>
+a)Student<br>
+b)StudentID Name Age<br>
+StudentID is the Primary Key.
+<h4>9. Relationship</h4>
+A relationship shows how entities are connected.<br>
+Example<br>
+a)Student → Enrolls → Course<br>
+b)Employee → Works in → Department
+
+<h4>10. Connectivity</h4>
+Connectivity shows how many records are related.<br>
+a)One-to-One (1:1)<br>
+One record matches one record.<br>
+Example: One person → One passport<br>
+b)One-to-Many (1:M)<br>
+One record relates to many records.<br>
+Example: One department → Many employees<br>
+c)Many-to-Many (M:N)<br>
+Many records relate to many records.<br>
+Example: Students register for many courses. Courses have many students.<br>
+<h4>11. Cardinality</h4>
+Cardinality specifies the number of entity occurrences participating in a relationship.<br>
+Example: One lecturer teaches many students.<br>
+<h4>12. Relationship Strength</h4>
+<h5>a)Strong Relationship</h5>
+a)Child depends on parent.<br>
+b)Child primary key includes parent's primary key.<br>
+<h5>b)Weak Relationship</h5>
+a)Child can exist independently.<br>
+b)Child primary key does not include parent's primary key.
+
+<h4>13. Participation</h4>
+<h5>a)Mandatory Participation</h5>
+Entity must participate.<br>
+Example: Every employee must belong to a department.<br>
+<h5>Optional Participation</h5>
+Entity may participate.<br>
+Example: A customer may not place an order.<br>
+<h4>14. Weak Entity</h4>
+<h5>A weak entity:</h5>
+a)Cannot exist without another entity.<br>
+b)Depends on a parent entity.<br>
+c)Uses part of the parent's primary key.<br>
+Example: Employee → Dependent<br>
+Dependent cannot exist without Employee.<br>
+<h4>15. Relationship Degree</h4>
+Shows how many entities participate.<br>
+a)Unary Relationship<br>
+One entity relates to itself.<br>
+Example: Employee supervises Employee.<br>
+b)Binary Relationship<br>
+Two entities.<br>
+Example: Student enrolls in Course.<br>
+Ternary Relationship
+c)Three entities.<br>
+Example: Supplier supplies Product to Warehouse.<br>
+<h4>16. Composite Entity (Bridge Entity)</h4>
+Used to solve Many-to-Many relationships.<br>
+Example<br>
+Student ← Enrollment → Course<br>
+Enrollment becomes the bridge table.<br>
+<h4>17. Supertype and Subtype</h4>
+a)Supertype<br>
+General entity.<br>
+Example: Employee<br>
+b)Subtypes<br>
+Specialized entities.<br>
+Employee<br>
+Lecturer<br>
+Administrator<br>
+Accountant<br>
+The supertype contains common attributes.<br>
+Subtypes contain unique attributes.<br>
+<h3>18. Developing an ER Diagram</h3>
+Steps<br>
+a)Study the business requirements.<br>
+b)Identify entities.<br>
+c)Identify attributes.<br>
+d)Identify primary keys.<br>
+e)Identify relationships.<br>
+f)Draw the ER Diagram.<br>
+Review and improve the design until it is correct.<br>
+
+<h4>19. Challenges of Database Design</h4>
+A good database should balance:<br>
+a)Security<br>
+b)Performance<br>
+c)Data integrity<br>
+d)Shared access<br>
+e)Fast processing<br>
+f)Following design standards<br>
+
+<h3>Quick Exam Summary</h3>
+a)Data Model: Representation of real-world data.<br>
+b)Conceptual Model: High-level database view.<br>
+c)Internal Model: DBMS view.<br>
+d)External Model: User's view.<br>
+e)Physical Model: Storage level.<br>
+f)Entity: Object stored in the database.<br>
+g)Attribute: Property of an entity.<br>
+h)Primary Key: Unique identifier.<br>
+i)Relationship: Connection between entities.<br>
+j)Connectivity: 1:1, 1:M, M:N.<br>
+k)Cardinality: Number of related records.<br>
+l)Weak Entity: Depends on another entity.<br>
+m)Composite Entity: Resolves M:N relationships.<br>
+n)Supertype: General entity.<br>
+o)Subtype: Specialized version of a supertype.<br>
+PThese notes are expanded from your lecture and are suitable for revision and answering long exam questions (20–25 marks).
+<h1>End of Lesson 2</h1>
+#################################################################################################################################################
+
+<h1>Lesson 3</h1>
+
+<h2>Normalization </h2>
+<h3>1. What is Normalization?</h3>
+Normalization is the process of organizing data in a database to reduce duplication (repeated data) and improve data integrity. It helps create efficient database tables.
+
+<h3>Objectives of Normalization</h3>
+a)Reduce data redundancy (duplicate data)<br>
+b)Eliminate data anomalies<br>
+c)Improve database consistency<br>
+d)Make database maintenance easier
+
+<h3>2. Problems Without Normalization</h3>
+<h4>A. Update Anomaly</h4>
+Occurs when the same information is stored in many places and must be updated multiple times.<br>
+Example: If JOB_CLASS = "Manager" is stored in 10 rows, changing it requires updating all 10 rows. <br>Missing one row causes inconsistency.
+
+<h4>B. Insertion Anomaly</h4>
+Occurs when you cannot add data without adding other unnecessary data.<br>
+Example: A new employee cannot be entered unless assigned to a project.<br>
+
+<h4>C. Deletion Anomaly</h4>
+Occurs when deleting one record removes important information.<br>
+Example: Deleting an employee may also delete project information.
+
+<h4>3. First Normal Form (1NF)</h4>
+Definition<br>
+A table is in 1NF when:<br>
+a)Each cell contains only one value.<br>
+b)No repeating groups exist.<br>
+c)Every row is uniquely identified by a primary key.
+
+<p>Example (Not in 1NF)</p>
+StudentID<br>
+Name<br>
+Subjects<br>
+101<br>
+John<br>
+DB, Java<br><br>
+The Subjects column contains multiple values.<br>
+Convert to 1NF<br>
+StudentID<br>
+Name<br>
+Subject<br>
+101<br>
+John<br>
+DB<br>
+101<br>
+John<br>
+Java<br>
+<h4>1NF Summary</h4>
+a)Primary key defined<br>
+b)No repeating groups<br>
+c)Attributes depend on the primary key<br>
+
+<h3>4. Functional Dependency</h3>
+A functional dependency exists when one attribute determines another.<br>
+Example<br>
+a)StudentID<br>
+b)StudentName<br>
+c)101<br>
+d)John<br>
+e)StudentID → StudentName<br>
+Meaning: StudentID determines StudentName.<br>
+<h3>5. Partial Dependency</h3>
+Occurs when an attribute depends on only part of a composite primary key.<br>
+
+Example<br>
+Proj_Num<br>
+Emp_Num<br>
+Emp_Name<br>
+Primary Key = (Proj_Num, Emp_Num)<br>
+Emp_Name depends only on Emp_Num, not the whole key.<br>
+This is called Partial Dependency.<br>
+<h3>6. Second Normal Form (2NF)</h3>
+<h4>Definition</h4>
+<p>A table is in 2NF when:</p>
+a)It is already in 1NF.<br>
+b)It has no partial dependencies.<br>
+
+Example<br>
+Original Table:<br>
+Proj_Num<br>
+Emp_Num<br>
+Emp_Name<br>
+Hours<br>
+Split into:<br>
+PROJECT<br>
+Proj_Num<br>
+Proj_Name<br>
+EMPLOYEE<br>
+Emp_Num<br>
+Emp_Name<br>
+ASSIGN<br>
+Proj_Num<br>
+Emp_Num<br>
+Hours<br>
+This removes partial dependencies.
+
+<h4>2NF Summary</h4>
+a)Must be in 1NF<br>
+b)No partial dependency<br>
+c)Transitive dependency may still exist
+
+<h3>7. Transitive Dependency</h3>
+Occurs when a non-key attribute depends on another non-key attribute.<br>
+
+Example<br>
+Emp_Num<br>
+Emp_Name<br>
+Job_Class<br>
+Chg_Hour<br>
+Emp_Num → Job_Class<br>
+Job_Class → Chg_Hour<br>
+Therefore:<br>
+Emp_Num → Chg_Hour<br>
+This is a transitive dependency.
+<h3>8. Third Normal Form (3NF)</h3>
+<h4>Definition</h4>
+<p>A table is in 3NF when:</p>
+a)It is already in 2NF.<br>
+b)It contains no transitive dependencies.
+
+<h4>Conversion to 3NF</h4>
+Separate JOB information:<br>
+EMPLOYEE<br>
+Emp_Num<br>
+Emp_Name<br>
+Job_Class<br>
+JOB<br>
+Job_Class<br>
+Chg_Hour<br>
+This removes transitive dependency.<br>
+
+<h4>3NF Summary</h4>
+a)Must be in 2NF<br>
+b)No transitive dependency
+
+<h3>9. BCNF (Boyce-Codd Normal Form)</h3>
+BCNF is a stronger version of 3NF.<br>
+<h4>Rule</h4>
+Every determinant must be a candidate key.<br>
+Simple Exam Definition<br>
+BCNF removes special dependency problems that may still exist in 3NF.<br>
+<h3>10. Fourth Normal Form (4NF)</h3>
+<h4>Rule</h4>
+A table should not contain multiple independent multivalued attributes.<br>
+Example<br>
+Student<br>
+Hobby<br>
+Language<br>
+One student may have:<br>
+Many hobbies<br>
+Many languages<br>
+Separate them into:<br>
+Student_Hobby<br>
+| Student | Hobby |<br>
+Student_Language<br>
+| Student | Language |<br>
+This achieves 4NF.
+<h3>11. ERD and Normalization</h3>
+ERD (Entity Relationship Diagram)<br>
+Shows:<br>
+a)Entities<br>
+b)Attributes<br>
+c)Relationships
+<p>Normalization</p>
+Shows:<br>
+How attributes should be organized into tables<br>
+Both are used together to create a good database design.<br>
+
+<h3>12. Denormalization</h3>
+Denormalization means intentionally adding some redundancy to improve performance.
+
+<h4>Advantages</h4>
+a)Faster queries<br>
+b)Better reporting performance
+<h4>Disadvantages</h4>
+a)More duplicate data<br>
+b)More update problems
+
+
+<a href="home.html" style="text-decoration:none;">Go Back</a>
+
+</body>
+</html>

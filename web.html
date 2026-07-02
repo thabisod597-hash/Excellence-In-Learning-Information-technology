@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Web design</title>
+</head>
+<body style="background-color: lightgreen; font-family: Arial, sans-serif;">
+	<p>
+		<h2>Web Design Notes:</h2>
+		 <h3>Creating a Login and Registration Page (HTML & CSS)</h3>
+<h4>Introduction</h4>
+A login page allows registered users to access a website by entering their username/email and password.<br><br>
+A registration page allows new users to create an account by entering their personal information.<br>
+CSS (Cascading Style Sheets) is used to make these pages attractive, organized, and easy to use.
+HTML Structure of a Login Page<br>
+A basic login page contains:<br>
+1.form> – Holds all input fields.<br>
+2.label> – Describes each input.<br>
+3.input> – Allows users to enter information.<br>
+4.button> – Submits the form.<br>
+5.a> – Creates links such as "Forgot Password?" or "Register".<br>
+<p>Example:</p>
+HTML<br>
+a)form><br>
+b)label>Username label><br>
+c)input type="text"><br>
+
+d)label>Password label><br>
+e)input type="password"><br>
+
+f)button>Login button><br>
+g)form><br>
+#)HTML Structure of a Registration Page
+<h4>A registration page usually contains:</h4>
+1)Full Name<br>
+2)Username<br>
+3)Email<br>
+4)Password<br>
+5)Confirm Password<br>
+6)Gender<br>
+7)Date of Birth<br>
+8)Phone Number<br>
+9)Register Button
+<p>Example:</p>
+HTML<br>
+a)form><br>
+b)input type="text" placeholder="Full Name"><br>
+c)input type="email" placeholder="Email"><br>
+d)input type="password" placeholder="Password"><br>
+e)input type="password" placeholder="Confirm Password"><br>
+
+f)button>Register</button>
+g)/form><br>
+<h3>CSS(Cascading Style Sheets)</h3>
+CSS controls the appearance of a webpage.<br>
+<h4>CSS syntax:</h4>
+CSS<br>
+selector{<br>
+property:value;<br>
+}<br>
+<p>Example:</p>
+CSS<br>
+h1{<br>
+color:blue;<br>
+}<br>
+Important CSS Properties<br>
+<h4>1. color</h4>
+Changes text colour.<br>
+CSS<br>
+color:white;<br>
+<h4>2. background-color</h4>
+Changes the background colour.<br>
+CSS<br>
+background-color:blue;<br>
+<h4>3. width</h4>
+Sets the width.<br>
+CSS<br>
+width:300px;<br>
+<h4>4. height</h4>
+Sets the height.<br>
+CSS<br>
+height:40px;<br>
+<h4>5. border</h4>
+Creates a border.<br>
+CSS<br>
+border:1px solid black;<br>
+<h4>6. border-radius</h4>
+Rounds corners.<br>
+CSS<br>
+border-radius:10px;<br>
+For a circle:<br>
+CSS<br>
+border-radius:50%;<br>
+<h4>7. padding</h4>
+Creates space inside an element.<br>
+Example:<br>
+CSS<br>
+padding:10px;<br>
+Different sides:<br>
+CSS<br>
+padding-top:10px;<br>
+padding-bottom:10px;<br>
+padding-left:20px;<br>
+padding-right:20px;<br>
+<h4>8. margin</h4>
+Creates space outside an element.<br>
+CSS<br>
+margin:20px;<br>
+Center a form:<br>
+CSS<br>
+margin:auto;<br>
+<h4>9. font-size</h4>
+Changes text size.<br>
+CSS<br>
+font-size:20px;<br>
+<h4>10. font-family</h4>
+Changes the font style.<br>
+CSS<br>
+font-family:Arial;<br>
+<h4>11. text-align</h4>
+Aligns text.<br>
+CSS<br>
+text-align:center;<br>
+<h4>12. box-shadow</h4>
+Adds a shadow.<br>
+CSS<br>
+box-shadow:0 0 10px gray;<br>
+<h4>13. cursor</h4>
+Changes the mouse pointer.<br>
+CSS<br>
+cursor:pointer;<br>
+<h4>14. display</h4>
+Controls how an element appears.<br>
+CSS<br>
+display:flex;<br>
+<h4>15. justify-content</h4>
+Aligns items horizontally.<br>
+CSS<br>
+justify-content:center;<br>
+<h4>16. align-items</h4>
+Aligns items vertically.<br>
+CSS<br>
+align-items:center;<br>
+<h4>17. min-height</h4>
+Sets the minimum height.<br>
+CSS<br>
+min-height:100vh;<br>
+<h4>18. transition</h4>
+Creates animation.<br>
+CSS<br>
+transition:0.3s;<br>
+<h4>19. hover Effect</h4>
+Changes appearance when the mouse is over an element.<br>
+CSS<br>
+button:hover{<br>
+background:red;<br>
+}<br>
+Styling a Login Form<br>
+<p>Example:</p>
+CSS<br>
+form{<br>
+width:350px;<br>
+padding:30px;<br>
+background:white;<br>
+border-radius:10px;<br>
+box-shadow:0 0 10px gray;<br>
+margin:auto;<br>
+}<br>
+Styling Input Boxes<br>
+CSS<br>
+input{<br>
+width:100%;<br>
+padding:12px;<br>
+margin:10px 0;<br>
+border:1px solid gray;<br>
+border-radius:5px;<br>
+}<br>
+<h4>Styling Buttons</h4>
+CSS<br>
+button{<br>
+width:100%;<br>
+padding:12px;<br>
+background:blue;<br>
+color:white;<br>
+border:none;<br>
+border-radius:5px;<br>
+cursor:pointer;<br>
+}<br>
+<h4>Hover effect:</h4>
+CSS<br>
+button:hover{<br>
+background:darkblue;<br>
+}<br>
+<h4>Styling the Body</h4>
+CSS<br>
+body{<br>
+margin:0;<br>
+padding:0;<br>
+font-family:Arial;<br>
+background:#f4f4f4;<br>
+display:flex;<br>
+justify-content:center;<br>
+align-items:center;<br>
+min-height:100vh;<br>
+}<br>
+<h4>Common Colours</h4>
+Colour<br>
+CSS Code<br>
+White<br>
+white<br>
+Black<br>
+black<br>
+Red<br>
+red<br>
+Blue<br>
+blue<br>
+Green<br>
+green<br>
+Gray<br>
+gray<br>
+Orange<br>
+orange<br>
+Purple<br>
+purple<br>
+Light Blue<br>
+skyblue<br>
+Dark Blue<br>
+navy<br>
+Good Login Page Features<br>
+Username or Email field<br>
+Password field<br>
+Login button<br>
+Forgot Password link<br>
+Register link<br>
+Company logo<br>
+Responsive design<br>
+Attractive colours<br>
+Rounded corners<br>
+Shadows<br>
+Hover effects<br>
+Good Registration Page Features<br>
+Full Name<br>
+Username<br>
+Email<br>
+Phone Number<br>
+Gender<br>
+Password<br>
+Confirm Password<br>
+Register button<br>
+Validation messages<br>
+Success message after registration<br>
+<h3>Revision Questions</h3>
+What is CSS?<br>
+What is the purpose of HTML forms?<br>
+What is the difference between padding and margin?<br>
+What does border-radius do?<br>
+What is the use of box-shadow?<br>
+Why do we use display: flex?<br>
+What is the purpose of justify-content?<br>
+What is the purpose of align-items?<br>
+How do you create a hover effect?<br>
+Name five CSS properties used when designing a login page.<br>
+These notes cover the core HTML and CSS concepts you need to create attractive login and registration pages for web design assignments.
+</p>
+<a href="home.html" style="text-decoration:none;">Go Back</a>
+
+</body>
+</html>

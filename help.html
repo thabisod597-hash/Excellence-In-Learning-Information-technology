@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Help</title>
+</head>
+<body style="font-family:Arial; margin:20px 10px; ">
+	<h1 style="color:blue; border-bottom: 90px;">Welcome!!! TO EILIT</h1>
+<p>Welcome to our Learning Management System Help Page. This platform is designed to assist students in learning various Information Technology modules, including Programming, Web Design, Database Management, Computer Hardware, Software Engineering, Data Communication, Computer Skills, and Computerised Mathematics. Here, students can access learning materials, assignments, tutorials, and other educational resources. If you experience any difficulties while using the system, please refer to the available guides or contact the system administrator for assistance. Our goal is to provide a simple, effective, and interactive learning environment that supports your academic success.</p>
+<body style="font-family:Arial; margin:20px;">
+
+    <h2 style="color:blue;">What Can We Help You With?</h2>
+
+    <label style="color:blue;">Your Problem:</label><br>
+    <textarea id="problem" rows="5" cols="50"
+    placeholder="Describe your problem here..."></textarea><br><br>
+
+    <button onclick="submitProblem()" style="width:120px; " style="width: 190px; background-color: blue; color: white;">Send Problem</button>
+    <a href="home.html" style="text-decoration: none;">Back Home</a>
+
+
+    <hr>
+
+    <div id="adminSection" style="display:none;">
+        <h3>System Administrator Response</h3>
+
+        <label>Reply to User:</label><br>
+        <textarea id="adminReply" rows="4" cols="50"
+        placeholder="Type your solution here..."></textarea><br><br>
+
+        <button onclick="sendReply()" style="width: 190px; background-color: blue; color: white;">Send Reply</button>
+    </div>
+
+    <hr>
+
+    <div id="ratingSection" style="display:none;">
+        <h3>Rate Our Service</h3>
+
+        <label>Rate us (1-5):</label>
+        <select id="rating">
+            <option value="1">1 Star</option>
+            <option value="2">2 Stars</option>
+            <option value="3">3 Stars</option>
+            <option value="4">4 Stars</option>
+            <option value="5">5 Stars</option>
+        </select>
+
+        <button onclick="submitRating()" style="width: 190px; background-color: blue; color: white;">Submit Rating</button>
+        <a href="home.html" style="text-decoration: none;">Back Home</a>
+
+        <h4 id="showRating"></h4>
+    </div>
+
+    <script>
+        function submitProblem() {
+            var problem = document.getElementById("problem").value;
+
+            if(problem == ""){
+                alert("Please enter your problem.");
+                return;
+            }
+
+            alert("Problem sent successfully!");
+            document.getElementById("adminSection").style.display = "block";
+        }
+
+        function sendReply() {
+            var reply = document.getElementById("adminReply").value;
+
+            if(reply == ""){
+                alert("Please type a response.");
+                return;
+            }
+
+            alert("Response sent to user!");
+            document.getElementById("ratingSection").style.display = "block";
+        }
+
+        function submitRating() {
+            var rating = document.getElementById("rating").value;
+
+            document.getElementById("showRating").innerHTML =
+            "Current Rating: " + rating + "/5 Stars";
+        }
+    </script>
+
+
+</body>
+</html>

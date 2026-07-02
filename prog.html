@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Programing</title>
+    <style type="text/css">
+        body{
+            margin: 0;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: lightgreen;
+        }
+        body:hover{
+            cursor: pointer;
+        }
+        table{
+            width: 100%;
+            margin-top: 25px;
+            border-collapse: collapse;
+            background-color: white;
+
+        }
+        th, td{
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            border: 2px solid gray;
+        }
+        th{
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+
+        }
+        tr:nth-child(odd){
+            background-color: lightblue;
+        }
+        td:hover{
+            background-color: skyblue;
+        }
+
+
+
+.container{
+    width:80%;
+    margin:auto;
+    padding-top:30px;
+}
+
+video{
+    width:80%;
+    max-width:800px;
+    border:3px solid #333;
+    border-radius:10px;
+}
+
+.download-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 20px;
+    background:#007BFF;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.download-btn:hover{
+    background:#0056b3;
+}
+
+        
+    </style>
+</head>
+<body>
+<h1>C++ Programing Language</h1>
+<h2>Lesson1</h2>
+<p>
+
+<h3>1. What is Structured Programming?</h3>
+Structured programming is a way of writing programs that are:<br>
+a, Easy to read.<br>
+b, Easy to understand.<br>
+c, Easy to test and fix.<br>
+d, Organized using functions, decisions, and loops.<br>
+
+<h3>2. Variables</h3>
+A variable is a named memory location used to store data.<br>
+<p>Syntax of declaring a variable</p>
+a: data_type variable_name;<br>
+<h4>Example</h4>
+
+int age;<br>
+float temperature;<br>
+char grade;<br>
+<div></div>
+<h3>Common Data Types</h3>
+<table>
+	<tr>
+<th>Data Type</th>
+<th>Meaning</th>
+<th>Example</th>
+</tr>
+<tr>
+	
+
+<td>int</td>
+<td>Whole numbers</td>
+<td>int age = 20;</td>
+</tr>
+<tr>
+    <td>float</td>
+<td>Decimal numbers</td>
+<td>float temp = 36.5;</td>
+</tr>
+<tr>
+<td>double</td>
+<td>More accurate decimal numbers</td>
+<td>double price = 99.99;</td>
+<tr>
+<td>char</td>
+<td>One character</td>
+<td>char grade = 'A';</td>
+</tr>
+<tr>
+<td>bool</td>
+<td>True or False</td>
+<td>bool pass = true;</td>
+</tr>
+</table>
+<h4>Initialising variables</h4>
+Giving a variable a data type
+<p>Example</p>
+a) int age;<br>
+age = 17;<br><br>
+b) float temperature;<br>
+temperature=34.12;<br><br>
+c) char grade;<br>
+grade = 'T';<br><br>
+d) int num;<br>
+num = 1;
+<h3>Modifiers</h3>
+
+a;unsigned → stores only positive integers.<br>
+b;long → stores very large integers.
+3. <h3>Errors in Programming</h3>
+Programming errors are mistakes that stop a program from working correctly.
+<p>(a) Syntax Error</p>
+Mistakes in writing code.<br>
+Example:<br>
+
+int x = 10<br>
+❌ Missing semicolon.
+<p>(b) Runtime Error</p>
+Occurs while the program is running.<br>
+Example:<br>
+
+10 / 0
+<p>(c) Logic Error</p>
+The program runs but gives the wrong answer.<br>
+Example:<br>
+
+2 + 2 = 5
+ <p>4.Comments</p>
+Comments explain code and are ignored by the compiler.<br>
+<p>a;Single-line comment:</p>
+
+// This is a comment
+<p>b;Multi-line comment:</p>
+
+/* This is<br>
+a comment */
+
+<h3>5. Control Flow</h3>
+Control flow is the order in which program instructions are executed.
+<p>It helps a program:</p>
+a;Make decisions.<br>
+b;Repeat tasks.<br>
+c;Follow a logical sequence.<br>
+<h3>6. Pseudocode</h3>
+Pseudocode is a simple way of writing program steps using everyday English.<br>
+Example:<br>
+
+:Start
+:Input age
+If age >= 18<br>
+    Display "Adult"<br>
+Else<br>
+    Display "Child"<br>
+End<br>
+<p>Advantages:</p>
+a;Easy to understand.<br>
+b;Does not use programming language syntax.<br>
+c;Helps plan a program before coding.<br>
+ <h3>7.Flowchart</h3>
+A flowchart is a picture that shows how a program works.<br>
+<p>Symbols:</p>
+⭕ Oval → Start/End<br>
+▭ Rectangle → Process<br>
+◇ Diamond → Decision<br>
+→ Arrow → Direction of flow<br>
+ <h3>8.Control Structures</h3>
+Control structures control how a program executes.
+<p>They include:</p>
+Decision statements<br>
+Loops<br>
+ <h3>9.Decision Statements</h3>
+Decision statements choose between different actions.<br>
+<h4>a.if Statement</h4>
+Runs code only if a condition is true.
+<p>Example:</p>
+
+if (marks >= 50)<br>
+{<br>
+    cout << "Pass";<br>
+}<br>
+<h4>b.if-else Statement</h4>
+Chooses between two actions.
+<p>Example:</p>
+
+if (marks >= 50)<br>
+{<br>
+    cout << "Pass";<br>
+}<br>
+else<br>
+{<br>
+    cout << "Fail";<br>
+}
+<h4>c.switch Statement</h4>
+Used when there are many choices based on one variable.
+<p>Example:</p>
+
+switch(choice)<br>
+{<br>
+case 1:<br>
+    cout<<"Home";<br>
+    break;<br>
+
+case 2:<br>
+    cout<<"Help";<br>
+    break;<br>
+
+default:<br>
+    cout<<"Invalid";<br>
+}<br>
+
+ <h3>10.Loops</h3>
+Loops repeat code.
+<h5>a.For Loop</h5>
+Used when you know how many times to repeat.
+<p>Example:</p>
+
+for(int i=1; i<=5; i++)<br>
+{<br>
+    cout<<i;<br>
+}<br>
+<h5>b.While Loop</h5>
+Repeats while a condition is true.
+<p>Example:</p>
+
+while(x<10)<br>
+{<br>
+    x++;<br>
+}<br>
+
+<h3>11. Functions</h3>
+A function is a reusable block of code that performs one task.
+<h4>Benefits:<h4>
+a;Reduces repetition.<br>
+b;Makes programs easier to read.
+c;Makes debugging easier.
+<h4>Types of Functions</h4>
+<h5>a.Pre-defined Functions</h5>
+Already provided by the programming language.
+<p>Examples:</p>
+sqrt()<br>
+pow()<br>
+strlen()<br>
+<h5>b.User-defined Functions</h5>
+Created by the programmer.
+<p>Example:</p>
+
+int add(int a, int b)<br>
+{<br>
+    return a+b;<br>
+}<br>
+
+ <h3>12.Referencing Functions</h3>
+<p>Functions can:</p>
+a;Be called from other functions.
+b;Receive information (parameters).
+c;Return results.
+This helps make programs more flexible and reusable.
+<h2>Quick Revision Questions</h2>
+What is a variable?<br>
+Name five data types in C++.<br>
+What are the three types of programming errors?<br>
+What is pseudocode?<br>
+What is the purpose of a flowchart?<br>
+What is the difference between if and if-else?<br>
+When do you use a for loop?<br>
+When do you use a while loop?<br>
+What is a function?<br>
+What is the difference between a pre-defined function and a user-defined function?<br>
+These notes summarize the key concepts from your Lecture 1 and are suitable for revision before<br> quizzes or exams.
+</p>
+
+
+
+
+
+<div class="container">
+
+<h1>C++ Programming videos of Lesson1</h1>
+ <p>A code that is Displaying A Name</p>
+<video controls>
+   <source src="videos/20260629_183325.mp4" type="video/mp4"><br>
+        </video>
+        <br>
+
+<a href="video/myvideo.mp4" download class="download-btn">
+
+Download Video
+</a>
+       
+        <P>A code that is registering user, it allow them to input their full details then it display it on the black console</P>
+         <video controls>
+         <source src="videos/20260629_183838.mp4" type="video/mp4"><br>
+            </video>
+            <br>
+
+<a href="video/myvideo.mp4" download class="download-btn">
+
+Download Video
+</a>
+         
+            <p>A code calculating an Area of a circle, then it display it on the Black console</p>
+               <video controls>
+             <source src="videos/20260629_184850.mp4" type="video/mp4">
+           </video>
+
+</video>
+
+<br>
+
+<a href="video/myvideo.mp4" download class="download-btn">
+
+Download Video
+</a>
+
+</div>
+
+</body>
+</html>
+
+<a href="home.html" style="text-decoration:none;">Back Home</a>
+</body>
+</html>

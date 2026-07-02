@@ -1,0 +1,70 @@
+body{
+	font-family: Arial, sans-serif;
+	background: lightgreen;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+
+	
+}
+.boz{
+	background-color: white;
+	padding: 30px;
+	width: 270px;
+	border-radius: 5px;
+
+
+}
+.boz h1{
+	text-align: center;
+	font-size: 26px;
+}
+.boz input{
+	width: 100%;
+	padding: 8px;
+	margin: 10px;
+	cursor: pointer;
+
+
+}
+.boz button{
+	width: 100%;
+	padding: 8px;
+	margin: 10px 0;
+	color: white;
+	background-color:green ;
+	border: none;
+	border-radius: 3px;
+
+}
+.boz input, button{
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+}
+.Ente{
+	text-decoration: none;
+}
+.boz button:hover{
+	background-color: #2345;
+	cursor: pointer;
+}
+.boz p{
+	justify-content: center;
+	align-items: center;
+}
+.male{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	margin-top: 5px;
+}
+.male label{
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
